@@ -65,7 +65,7 @@ function App() {
               }
               } /><span className='selectSpan' title='Shows'>Shows</span>
               <br />
-              <input size={'25'} type={'text'} id="inputData" value={inputData} placeholder={myplaceholder} onChange={(e) => {
+              <input size={'35'} type={'text'} id="inputData" value={inputData} placeholder={myplaceholder} onChange={(e) => {
                 setInputData(e.target.value)
               }} />
 
