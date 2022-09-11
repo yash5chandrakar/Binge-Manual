@@ -54,7 +54,7 @@ function App() {
           <div className='inputContainer'>
             <div className='title'>
               <h1>Binge Manual</h1>
-              <p>Binge Manual is an amazing app through which you can find shows you love more easily. Want to know about that actor you like? Want to know more about movie you like ? Binge Manual is one place where you will find everything. Select the tag and start browsing NOW ! </p>
+              <p>Binge Manual is a very amazing app through which you can find shows you love more easily. Want to know about that actor you like? Want to know more about movie you like ? Binge Manual is one place where you will find everything. Select the tag and start browsing NOW ! </p>
             </div>
             <div className='userSelect'>
               <input type={"radio"} id="actors" htmlFor='Actor' name="selection" value={'people'} onChange={(e) => {
