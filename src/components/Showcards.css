@@ -1,0 +1,45 @@
+.showCard {
+    height: 450px;
+    width: 200px;
+    padding: 0px 0px;
+    margin: 10px 20px;
+    color: rgba(0, 0, 0, 0.781);
+    background-color: rgba(128, 128, 128, 0.498);
+}
+
+.showCard h3 {
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.showCard a {
+    text-decoration: none;
+    color: rgba(53, 48, 48, 0.781);
+}
+
+.showCard a:hover {
+    color: lightgray;
+    text-decoration: underline;
+}
+
+.showCard p {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    font-size: 17px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.showCard img {
+    height: 280px;
+    width: 200px;
+}
+
+.showScore {
+    text-align: center;
+    color: rgba(74, 228, 228, 0.826);
+    font-size: 22px;
+}

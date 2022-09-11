@@ -1,0 +1,25 @@
+.peopleCard {
+    height: 350px;
+    width: 200px;
+    padding: 0px 0px;
+    margin: 10px 10px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.799);
+    font-family: cursive;
+    background-color: rgba(128, 128, 128, 0.406);
+}
+
+.peopleCard img {
+    height: 280px;
+    width: 200px;
+}
+
+.peopleCard a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.781);
+}
+
+.peopleCard a:hover {
+    color: lightgray;
+    text-decoration: underline;
+}
