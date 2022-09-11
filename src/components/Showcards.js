@@ -3,7 +3,6 @@ import './Showcards.css'
 
 const Showcards = ({ item }) => {
     if (item.show.summary !== null) {
-        // if (item.show.image !== undefined && item.show.image !== null && item.show.image.medium != null && item.show.summary !== null) {
         let mySrc = "https://st3.depositphotos.com/1322515/35964/v/1600/depositphotos_359648638-stock-illustration-image-available-icon.jpg"
         if (item.show.image !== null && item.show.image.medium !== null) {
             mySrc = item.show.image.medium
