@@ -2,14 +2,22 @@
     height: 350px;
     width: 200px;
     padding: 0px 0px;
-    margin: 10px 10px;
+    margin: 10px 20px;
     text-align: center;
     color: rgba(0, 0, 0, 0.799);
     font-family: cursive;
-    background-color: rgba(128, 128, 128, 0.406);
+    background-color: rgba(255, 255, 255, 0.525);
+    border-radius: 15px;
+}
+
+.peopleCard:hover {
+    transform: scale(1.1);
+    transition: .5s;
 }
 
 .peopleCard img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
     height: 280px;
     width: 200px;
 }
@@ -20,6 +28,6 @@
 }
 
 .peopleCard a:hover {
-    color: lightgray;
+    color: rgb(85, 91, 6);
     text-decoration: underline;
 }
