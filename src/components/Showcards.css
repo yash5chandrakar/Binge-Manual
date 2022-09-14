@@ -22,7 +22,7 @@
 }
 
 .showCard a:hover {
-    color: lightgray;
+    color: rgb(85, 91, 6);
     text-decoration: underline;
 }
 
