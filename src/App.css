@@ -2,7 +2,7 @@
 
 
 .mainContainer {
-  min-height: 100vh;
+  min-height: 97vh;
   width: 100%;
   background-color: white;
   display: flex;
@@ -75,7 +75,9 @@ input[type=radio] {
   flex-direction: row;
   justify-content: baseline;
   flex-wrap: wrap;
-  height: 70vh;
+  height: 60vh;
+  /* min-height: 20vh; */
+  min-width: 50vw;
   padding: 30px;
   margin: 10px;
   overflow-y: auto;
