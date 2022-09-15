@@ -6,6 +6,7 @@ const Cards = (props) => {
     const data = props.data
     const choice = props.choice
 
+
     if (data.length > 2) {
         return (
             <>
@@ -31,9 +32,7 @@ const Cards = (props) => {
             </>
         )
     }
-    else if (choice !== "") {
-        return "No Data Found !"
-    }
+
 }
 
 export default Cards

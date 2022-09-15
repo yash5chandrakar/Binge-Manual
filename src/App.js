@@ -6,6 +6,7 @@ function App() {
 
   const [mydata, setMydata] = useState([])
   const [choice, setChoice] = useState("")
+  const [myDisplay, setMyDisplay] = useState("none")
   const myChoice = useRef("")
 
   const [inputError, setInputError] = useState("")
@@ -23,9 +24,11 @@ function App() {
     const query = inputData
     if (query === "") {
       setMydata([])
+      setMyDisplay("none")
       setInputError("Please Enter Some Text")
     }
     else if (choice === "") {
+      setMyDisplay("none")
       setInputError("Please select some tags")
     }
     else {
@@ -36,9 +39,12 @@ function App() {
         .then((res) => res.json())
         .then((data) => {
           if (data.length === 0) {
+            setMydata([])
+            setMyDisplay("none")
             setInputError("No Matches Found !")
           }
           else {
+            setMyDisplay("flex")
             // console.log(data)
             setMydata(data)
           }
@@ -53,7 +59,6 @@ function App() {
           <div className='inputContainer'>
             <div className='title'>
               <h1>Binge Manual</h1>
-              {/* <p>Binge Manual is a very amazing app through which you can find shows you love more easily. Want to know about that actor you like? Want to know more about movie you like ? Binge Manual is one place where you will find everything. Select the tag and start browsing NOW </p> */}
             </div>
             <div className='userSelect'>
               <input type={"radio"} id="actors" htmlFor='Actor' name="selection" value={'people'} onChange={(e) => {
@@ -71,7 +76,7 @@ function App() {
               <br />
               <span className='errorSpan' title='Error'>{(inputError === null) ? "" : inputError}</span>
             </div>
-            <div className='displayCards'>
+            <div className='displayCards' style={{ display: myDisplay }}>
               <Cards choice={myChoice.current} data={mydata} />
             </div>
           </div>
