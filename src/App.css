@@ -57,7 +57,7 @@ p span {
 }
 
 .userSelect input {
-  margin: 2% 2% 2% 2%;
+  margin: 1% 2% 1% 2%;
   max-width: 80%;
   font-size: 80%;
   padding: 0.5% 4%;
@@ -77,7 +77,7 @@ input[type=radio] {
 .displayCards {
   display: flex;
   flex-direction: row;
-  justify-content: baseline;
+  justify-content: center;
   flex-wrap: wrap;
   height: 60vh;
   min-width: 50vw;
