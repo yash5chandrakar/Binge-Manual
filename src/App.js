@@ -32,7 +32,7 @@ function App() {
       setInputError("Please select some tags")
     }
     else {
-      setMydata([]) // very important
+      setMydata(["Loading"]) // very important
       setInputError("")
       myChoice.current = choice
       fetch(`https://api.tvmaze.com/search/${myChoice.current}?q=${query}`)

@@ -6,7 +6,6 @@ const Cards = (props) => {
     const data = props.data
     const choice = props.choice
 
-
     if (data.length > 2) {
         return (
             <>
@@ -30,6 +29,13 @@ const Cards = (props) => {
                     ) : ""
                 }
             </>
+        )
+    }
+    else if (data[0] === "Loading") {
+        return (
+            <div className='loading'>
+                <h1>{data[0]}...</h1>
+            </div>
         )
     }
 

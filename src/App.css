@@ -48,7 +48,6 @@ p span {
 .title p {
   font-weight: 600;
   font-size: 23px;
-
 }
 
 .userSelect {
@@ -79,7 +78,7 @@ input[type=radio] {
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
-  height: 60vh;
+  height: 70vh;
   min-width: 50vw;
   overflow-y: auto;
 }
