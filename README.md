@@ -6,7 +6,7 @@ Binge Manual is an amazing app through which you can find shows you love more ea
 
 # Link 
 
-Click&nbsp;<a href="https://dashing-seahorse-d8c84b.netlify.app/">Here</a>&nbsp;to see this Project.
+Click&nbsp;<a href="https://chic-cobbler-f59be8.netlify.app/">Here</a>&nbsp;to see this Project.
 
 # Requirements
 
